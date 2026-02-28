@@ -1,132 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Aurum Studio — biznesingiz uchun zamonaviy va tezkor veb-saytlar yaratamiz."
+    />
+    <title>Aurum Studio | Sizga mos zamonaviy sayt</title>
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./responsive.css" />
-    <title>cinemaa.tv</title>
-
-    <link rel="shortcut icon" href="./cinema.tv (2).png" type="image/x-icon" />
   </head>
-
   <body>
-    <div class="container">
-      <header>
-        <div class="header">
-          <div class="cinem_png">
-            <img class="sinema_img" src="./cinema.tv (1).svg" alt="img" />
-            <h1 class="img_png_color">CINEMA.TV</h1>
-          </div>
-          <div class="input">
-            <input class="input_serch" type="text" placeholder="Search..." />
-          </div>
-          <div class="a_umumiy">
-            <a class="a_teg" href="#">BOSH SAHIFA</a>
-            <a class="a_teg" href="#">KINOLAR</a>
-            <a class="a_teg" href="#">SERIALLAR</a>
-            <a class="a_teg" href="#">JANR</a>
-            <a class="a_teg" href="#">YIL</a>
-            <a class="a_teg" href="#">MAMLAKAT</a>
-            <a class="a_teg" href="#">KINO YANGILIKLARI</a>
-          </div>
-          <img class="burger_img" src="./burger-bar (3).png" alt="img" />
-        </div>
-      </header>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="#home">Aurum Studio</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menyuni ochish">
+          ☰
+        </button>
+        <nav class="nav" id="mainNav">
+          <a href="#home">Bosh sahifa</a>
+          <a href="#services">Xizmatlar</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Aloqa</a>
+        </nav>
+      </div>
+    </header>
 
-      <main>
-        <div class="img_card">
-          <div class="grid_card_img">
-            <img class="img1" src="./azizbek yetim.jpg" alt="" />
-            <div class="grid_padding">
-              <h3 class="grid_text_color">Styuardessalar</h3>
-              <p>Davlat:Hindiston</p>
-              <p>Yil:2024-yil</p>
-              <p>Til:uzbek</p>
-              <button class="main_button">
-                <a class="btn_a" href="./nev.html">Ko'rish</a>
-              </button>
-            </div>
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-grid">
+          <div>
+            <p class="tag">Siz so'radingiz: “Menga sayt kerak”</p>
+            <h1>Biz siz uchun tez, chiroyli va sotuvga ishlaydigan sayt tayyorlaymiz.</h1>
+            <p class="lead">
+              Landing page, korporativ sayt yoki onlayn do'kon — barchasini zamonaviy
+              dizayn va toza kod bilan ishlab beramiz.
+            </p>
+            <a class="btn" href="#contact">Bepul maslahat olish</a>
           </div>
-          <div class="grid_card_img">
-            <img class="img1" src="./obshi yban.jpg" alt="" />
-            <div class="grid_padding">
-              <h3 class="grid_text_color">Tungi Partiya</h3>
-              <p>Davlat:Fransiya</p>
-              <p>Yil:2023-yil</p>
-              <p>Til:uzbek</p>
-              <button class="main_button">Ko'rish</button>
-            </div>
+          <div class="hero-card">
+            <h2>Nega biz?</h2>
+            <ul>
+              <li>⚡ 3–7 kunda tayyor loyiha</li>
+              <li>📱 Telefon va kompyuterga moslashgan dizayn</li>
+              <li>🔍 SEO uchun tayyor strukturа</li>
+              <li>🛠️ Keyingi texnik qo'llab-quvvatlash</li>
+            </ul>
           </div>
-          <div class="grid_card_img">
-            <img class="img1" src="./yetim.jpg" alt="" />
+        </div>
+      </section>
 
-            <div class="grid_padding">
-              <h3 class="grid_text_color">Driver</h3>
-              <p>Davlat:Fransiya</p>
-              <p>Yil:2023-yil</p>
-              <p>Til:uzbek</p>
-              <button class="main_button">Ko'rish</button>
-            </div>
-          </div>
-          <div class="grid_card_img">
-            <img class="img1" src="./umar.jpg" alt="" />
-            <div class="grid_padding">
-              <h3 class="grid_text_color">Fighter</h3>
-              <p>Davlat:Fransiya</p>
-              <p>Yil:2023-yil</p>
-              <p>Til:uzbek</p>
-              <button class="main_button">Ko'rish</button>
-            </div>
-          </div>
-          <div class="grid_card_img">
-            <img class="img1" src="./diyyi.jpg" alt="" />
-            <div class="grid_padding">
-              <h3 class="grid_text_color">Animal</h3>
-              <p>Davlat:Fransiya</p>
-              <p>Yil:2023-yil</p>
-              <p>Til:uzbek</p>
-              <button class="main_button">Ko'rish</button>
-            </div>
-          </div>
-          <div class="grid_card_img">
-            <img class="img1" src="./azam.jpg" alt="" />
-            <div class="grid_padding">
-              <h3 class="grid_text_color">Askar</h3>
-              <p>Davlat:Fransiya</p>
-              <p>Yil:2023-yil</p>
-              <p>Til:uzbek</p>
-              <button class="main_button">Ko'rish</button>
-            </div>
+      <section class="section" id="services">
+        <div class="container">
+          <h2 class="section-title">Xizmatlar</h2>
+          <div class="cards">
+            <article class="card">
+              <h3>Landing page</h3>
+              <p>Mahsulot yoki xizmatni tez va samarali sotish uchun bir sahifali sayt.</p>
+            </article>
+            <article class="card">
+              <h3>Korporativ sayt</h3>
+              <p>Kompaniyangiz imidjini oshiruvchi ko'p sahifali professional sayt.</p>
+            </article>
+            <article class="card">
+              <h3>Onlayn do'kon</h3>
+              <p>To'lov tizimi va katalog bilan to'liq internet do'kon yechimi.</p>
+            </article>
           </div>
         </div>
-      </main>
-      <footer>
-        <div class="fotr1">
-          <div class="fotter_img">
-            <img class="sinema_img" src="./cinema.tv (1).svg" alt="img" />
-            <h1 class="img_png_color">CINEMA.TV</h1>
+      </section>
+
+      <section class="section section-dark" id="portfolio">
+        <div class="container">
+          <h2 class="section-title">Ishlash jarayoni</h2>
+          <div class="steps">
+            <div class="step"><strong>1.</strong> Talablarni aniqlaymiz</div>
+            <div class="step"><strong>2.</strong> Dizayn maketini tasdiqlaymiz</div>
+            <div class="step"><strong>3.</strong> Saytni kodlaymiz va test qilamiz</div>
+            <div class="step"><strong>4.</strong> Domen/hostingga joylaymiz</div>
           </div>
         </div>
-        <div class="footer">
-          <div class="reklama_bolimi">
-            <img width="30px" height="30px" src="./instagram.png" alt="" />
-            <a class="instagram" href="https://www.instagram.com/">Instagram</a>
-          </div>
-          <div class="reklama_bolimi">
-            <img width="30px" height="30px" src="./facebook.png" alt="" />
-            <a class="facebok" href="#">facebook</a>
-          </div>
-          <div class="reklama_bolimi">
-            <img width="30px" height="30px" src="./telegram.png" alt="" />
-            <a class="telegram" href="https://web.telegram.org/">telegram</a>
-          </div>
-          <div class="reklama_bolimi">
-            <img width="30px" height="30px" src="./gmail.png" alt="" />
-            <a class="gamil" href="#">Gmail</a>
-          </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container contact-box">
+          <h2 class="section-title">Bog'lanish</h2>
+          <p>
+            Loyihangiz haqida yozing: <a href="mailto:hello@aurum.uz">hello@aurum.uz</a>
+          </p>
+          <p>Telegram: <a href="https://t.me" target="_blank" rel="noreferrer">@aurum_studio</a></p>
         </div>
-      </footer>
-    </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Aurum Studio. Barcha huquqlar himoyalangan.</p>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
   </body>
 </html>
