@@ -5,24 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Aurum Studio — biznesingiz uchun zamonaviy va tezkor veb-saytlar yaratamiz."
+      content="Aurum Movie — premium filmlar, seriallar va bolalar kontenti jamlangan professional kino platforma."
     />
-    <title>Aurum Studio | Sizga mos zamonaviy sayt</title>
+    <title>Aurum Movie | Premium onlayn kino platforma</title>
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./responsive.css" />
   </head>
   <body>
     <header class="site-header">
       <div class="container header-inner">
-        <a class="logo" href="#home">Aurum Studio</a>
-        <button class="menu-toggle" id="menuToggle" aria-label="Menyuni ochish">
-          ☰
-        </button>
+        <a class="logo" href="#home">Aurum<span>Movie</span></a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menyuni ochish">☰</button>
         <nav class="nav" id="mainNav">
           <a href="#home">Bosh sahifa</a>
-          <a href="#services">Xizmatlar</a>
-          <a href="#portfolio">Portfolio</a>
-          <a href="#contact">Aloqa</a>
+          <a href="#trending">Trend</a>
+          <a href="#categories">Janrlar</a>
+          <a href="#plans">Tariflar</a>
+          <a href="#download">Yuklab olish</a>
         </nav>
       </div>
     </header>
@@ -31,72 +30,156 @@
       <section class="hero" id="home">
         <div class="container hero-grid">
           <div>
-            <p class="tag">Siz so'radingiz: “Menga sayt kerak”</p>
-            <h1>Biz siz uchun tez, chiroyli va sotuvga ishlaydigan sayt tayyorlaymiz.</h1>
+            <p class="tag">UZMOVI.TV darajasidagi professional tajriba</p>
+            <h1>Aurum Movie — filmlar va seriallarni premium sifatda tomosha qiling.</h1>
             <p class="lead">
-              Landing page, korporativ sayt yoki onlayn do'kon — barchasini zamonaviy
-              dizayn va toza kod bilan ishlab beramiz.
+              4K kontent, tezkor player, o'zbek tilidagi dublyaj va sun'iy intellekt yordamida mos
+              tavsiyalar. Har qanday qurilmada uzluksiz kino zavqi.
             </p>
-            <a class="btn" href="#contact">Bepul maslahat olish</a>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#plans">Obuna bo'lish</a>
+              <a class="btn btn-secondary" href="#trending">Tomosha qilish</a>
+            </div>
+            <div class="hero-stats">
+              <article>
+                <strong>12,000+</strong>
+                <span>Film va serial</span>
+              </article>
+              <article>
+                <strong>99.9%</strong>
+                <span>Uptime</span>
+              </article>
+              <article>
+                <strong>2.1M</strong>
+                <span>Faol foydalanuvchi</span>
+              </article>
+            </div>
           </div>
-          <div class="hero-card">
-            <h2>Nega biz?</h2>
-            <ul>
-              <li>⚡ 3–7 kunda tayyor loyiha</li>
-              <li>📱 Telefon va kompyuterga moslashgan dizayn</li>
-              <li>🔍 SEO uchun tayyor strukturа</li>
-              <li>🛠️ Keyingi texnik qo'llab-quvvatlash</li>
-            </ul>
+          <div class="hero-poster">
+            <img src="./obshi yban.jpg" alt="Aurum Movie featured poster" />
           </div>
         </div>
       </section>
 
-      <section class="section" id="services">
+      <section class="section" id="trending">
         <div class="container">
-          <h2 class="section-title">Xizmatlar</h2>
-          <div class="cards">
-            <article class="card">
-              <h3>Landing page</h3>
-              <p>Mahsulot yoki xizmatni tez va samarali sotish uchun bir sahifali sayt.</p>
+          <div class="section-heading">
+            <h2 class="section-title">Trenddagi premyeralar</h2>
+            <a href="#" class="ghost-link">Barchasini ko'rish →</a>
+          </div>
+          <div class="movie-grid">
+            <article class="movie-card">
+              <img src="./Без названия (1).jpg" alt="Sarguzasht film posteri" />
+              <div class="movie-info">
+                <h3>Qorong'u Tun</h3>
+                <p>Triller • 2026</p>
+              </div>
             </article>
-            <article class="card">
-              <h3>Korporativ sayt</h3>
-              <p>Kompaniyangiz imidjini oshiruvchi ko'p sahifali professional sayt.</p>
+            <article class="movie-card">
+              <img src="./Без названия (2).jpg" alt="Fantastik film posteri" />
+              <div class="movie-info">
+                <h3>Samoviy Yo'l</h3>
+                <p>Fantastika • 2026</p>
+              </div>
             </article>
-            <article class="card">
-              <h3>Onlayn do'kon</h3>
-              <p>To'lov tizimi va katalog bilan to'liq internet do'kon yechimi.</p>
+            <article class="movie-card">
+              <img src="./Без названия (3).jpg" alt="Drama film posteri" />
+              <div class="movie-info">
+                <h3>Sokin Qalb</h3>
+                <p>Drama • 2025</p>
+              </div>
+            </article>
+            <article class="movie-card">
+              <img src="./Без названия (4).jpg" alt="Detektiv film posteri" />
+              <div class="movie-info">
+                <h3>Yashirin Kod</h3>
+                <p>Detektiv • 2025</p>
+              </div>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="section section-dark" id="portfolio">
+      <section class="section section-dark" id="categories">
         <div class="container">
-          <h2 class="section-title">Ishlash jarayoni</h2>
-          <div class="steps">
-            <div class="step"><strong>1.</strong> Talablarni aniqlaymiz</div>
-            <div class="step"><strong>2.</strong> Dizayn maketini tasdiqlaymiz</div>
-            <div class="step"><strong>3.</strong> Saytni kodlaymiz va test qilamiz</div>
-            <div class="step"><strong>4.</strong> Domen/hostingga joylaymiz</div>
+          <h2 class="section-title">Janrlar bo'yicha kashf eting</h2>
+          <div class="category-grid">
+            <article class="category-card">
+              <h3>Jangari</h3>
+              <p>Tezkor syujet, kuchli sahnalar va adrenalin.</p>
+            </article>
+            <article class="category-card">
+              <h3>Melodrama</h3>
+              <p>Hissiyotga boy voqealar va yodda qoluvchi qahramonlar.</p>
+            </article>
+            <article class="category-card">
+              <h3>Komediya</h3>
+              <p>Oilaviy kayfiyat uchun eng sara kulguli kontentlar.</p>
+            </article>
+            <article class="category-card">
+              <h3>Multfilm</h3>
+              <p>Bolalar uchun xavfsiz va sifatli animatsion kutubxona.</p>
+            </article>
           </div>
         </div>
       </section>
 
-      <section class="section" id="contact">
-        <div class="container contact-box">
-          <h2 class="section-title">Bog'lanish</h2>
-          <p>
-            Loyihangiz haqida yozing: <a href="mailto:hello@aurum.uz">hello@aurum.uz</a>
-          </p>
-          <p>Telegram: <a href="https://t.me" target="_blank" rel="noreferrer">@aurum_studio</a></p>
+      <section class="section" id="plans">
+        <div class="container">
+          <h2 class="section-title">Tarif rejalar</h2>
+          <div class="plan-grid">
+            <article class="plan-card">
+              <h3>Start</h3>
+              <p class="price">49,000 so'm <span>/oy</span></p>
+              <ul>
+                <li>HD sifat</li>
+                <li>1 ta qurilma</li>
+                <li>Cheklangan premyera</li>
+              </ul>
+              <a href="#" class="btn btn-secondary">Tanlash</a>
+            </article>
+            <article class="plan-card featured">
+              <p class="badge">Eng ommabop</p>
+              <h3>Premium</h3>
+              <p class="price">89,000 so'm <span>/oy</span></p>
+              <ul>
+                <li>4K + HDR sifat</li>
+                <li>3 ta qurilma</li>
+                <li>Barcha premyeralar</li>
+              </ul>
+              <a href="#" class="btn btn-primary">Boshlash</a>
+            </article>
+            <article class="plan-card">
+              <h3>Family</h3>
+              <p class="price">129,000 so'm <span>/oy</span></p>
+              <ul>
+                <li>4K sifat</li>
+                <li>5 ta profil</li>
+                <li>Bolalar nazorati</li>
+              </ul>
+              <a href="#" class="btn btn-secondary">Tanlash</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section app-section" id="download">
+        <div class="container app-box">
+          <div>
+            <h2 class="section-title">Aurum Movie ilovasini yuklab oling</h2>
+            <p>
+              Android, iOS, Smart TV va Web platformalarda ishlaydi. Offline ko'rish, multi-audio va
+              subtitr funksiyalari mavjud.
+            </p>
+          </div>
+          <a class="btn btn-primary" href="#">Ilovani yuklab olish</a>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
       <div class="container footer-inner">
-        <p>© <span id="year"></span> Aurum Studio. Barcha huquqlar himoyalangan.</p>
+        <p>© <span id="year"></span> Aurum Movie. Barcha huquqlar himoyalangan.</p>
       </div>
     </footer>
 
